@@ -1,0 +1,13 @@
+/* 1. Define your uploaded font */
+@font-face {
+  font-family: 'LandUIPro';
+  src: url('/LandUIPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Apply it to your website */
+body {
+  font-family: 'LandUIPro', sans-serif;
+}
